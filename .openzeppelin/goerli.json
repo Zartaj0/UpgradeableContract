@@ -1,0 +1,85 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x3CAC6530589F3A951E6C8285e5592B9a017dCE41",
+    "txHash": "0x192482be6ebdc4bdb921a285a94e35d8b61bf79d4d80600f08f5f15b385581da"
+  },
+  "proxies": [
+    {
+      "address": "0xE49F46b9DB829955D95C1f4D71AC8943B26070F5",
+      "txHash": "0x6b492506514be830a1406ece7b6a0fdbec5bf5fb018cfb55f6f6a568a1abd07a",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "93a40fb8f2cfb9c86b06b5c05fb101d80cbdf5a62a369553de837b438aa672c5": {
+      "address": "0x6E227e350B297245e83Bf4dea14eA693edb8B5a7",
+      "txHash": "0x301ec64adb38d2ed133b42c1a4234249603b5926ed50cf771858e1905611f098",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Lock",
+            "src": "contracts\\Lock.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "0f8e25b2cdfc5509a93cff0c961a7d55efd7e90a4d1bcd777c8fb6fb3a2cee7f": {
+      "address": "0xdffdA9B7A6816140ecf28DBf6b39b3A49Bbe2d09",
+      "txHash": "0x620980e906bcbcdd42e6e373d3c43c1ee0c035ed1934ea9cd18612c81953e2a7",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Lock",
+            "src": "contracts\\Lock.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "e175168afd609b9876e79a02f75a7c0e22a769351d6d71070583c1f174873d5c": {
+      "address": "0x7C56E0f66B8B182F6BFEadbCbed6876cdB2618a2",
+      "txHash": "0xe718837e51993e08980170738e6b7bbf2ab3edb27057f20bb5b51dc947ff4d29",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Lock2",
+            "src": "contracts\\Lock2.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
